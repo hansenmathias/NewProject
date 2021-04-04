@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var settings = Config()
+
     var body: some View {
         Text("Hello, Nope!")
             .padding()
+        Text("Score: \(settings.HTTP_STATUS_OK)")
+        .background(Color.blue)
+    
     }
 }
 

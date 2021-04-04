@@ -13,6 +13,8 @@
 		C4A402942619BD7200BAD14F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4027F2619BD6800BAD14F /* ContentView.swift */; };
 		C4A402952619BD7200BAD14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A402802619BD7200BAD14F /* Assets.xcassets */; };
 		C4A402962619BD7200BAD14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A402802619BD7200BAD14F /* Assets.xcassets */; };
+		C4A402A22619BE1100BAD14F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A402A12619BE1100BAD14F /* Config.swift */; };
+		C4A402A32619BE1100BAD14F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A402A12619BE1100BAD14F /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		C4A4028D2619BD7200BAD14F /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A4028F2619BD7200BAD14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A402902619BD7200BAD14F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C4A402A12619BE1100BAD14F /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				C4A4027E2619BD6800BAD14F /* NewProjectApp.swift */,
 				C4A4027F2619BD6800BAD14F /* ContentView.swift */,
 				C4A402802619BD7200BAD14F /* Assets.xcassets */,
+				C4A402A12619BE1100BAD14F /* Config.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			files = (
 				C4A402932619BD7200BAD14F /* ContentView.swift in Sources */,
 				C4A402912619BD7200BAD14F /* NewProjectApp.swift in Sources */,
+				C4A402A22619BE1100BAD14F /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				C4A402942619BD7200BAD14F /* ContentView.swift in Sources */,
 				C4A402922619BD7200BAD14F /* NewProjectApp.swift in Sources */,
+				C4A402A32619BE1100BAD14F /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
